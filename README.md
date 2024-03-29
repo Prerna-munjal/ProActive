@@ -2,7 +2,7 @@
 
 ### Play with this repository
 
-> &#8545;. [Fork](https://github.com/DevsDialogue/ProActive.git/fork) the project.
+> &#8545;. [Fork](https://github.com/DevsDialogue/ProActive/fork) the project.
 
 > &#8546;. Clone the project to run on your local machine using the following command:
 
