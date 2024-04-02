@@ -1,5 +1,4 @@
 import { useState } from "react";
-import ProActive from "../Images/ProActive.png";
 import GitHubLogo from "../Images/GitHub_Logo.png"; // Assuming you have a GitHub logo image
 import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
 
@@ -19,7 +18,6 @@ const Navbar = () => {
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
         {/* logo section */}
         <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
-          <img src={ProActive} alt="logo" className="h-12 w-12 rounded-full" />
           <span>ProActive</span>
         </div>
         {/* Menu icon */}
