@@ -2,7 +2,7 @@ import "./App.css";
 // import Footer from "./components/Footer";
 // import Loader from "./components/Loader";
 import Navbar from "./components/Navbar";
- import LoginPage from "./components/LoginPage";
+import LoginPage from "./components/LoginPage";
 // import SignUpPage from "./components/SignUpPage";
 // import ForgotPassword from "./components/ForgotPassword";
 // import BodyPage1 from "./components/BodyPage1";
@@ -15,10 +15,8 @@ function App() {
       {/* <Footer /> */}
       <Navbar />
       {/* {<LoginPage />} */}
-      <LoginPage/>
-
+      <LoginPage />
       {/* <Loader />
-      
       <SignUpPage />
       <ForgotPassword />
       <BodyPage1 />
