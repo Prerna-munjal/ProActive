@@ -5,7 +5,7 @@ const LoginPage = () => {
     
     <div className="font-serif flex justify-center items-center h-screen  bg-[url('./Images/Background_Image.png')]  ">
       
-      <div className="bg-fuchsia-950   border-slate-700 border-6 box-content h-[546px] w-[450px]  rounded-2xl pl-[50px] pr-[9px] pt-[50px] pb-[38px] mt-[65px] ml-[-780px]">
+      <div className="bg-fuchsia-950  border-slate-700 border-6 box-content h-[546px] w-[450px]  rounded-2xl pl-[50px] pr-[9px] pt-[50px] pb-[38px] mt-[65px] ml-[-780px]">
         <div>
           
           <h1 className="text-white font-bold flex justify-start text-3xl ">
@@ -33,7 +33,7 @@ const LoginPage = () => {
             className="border-gray-500 border-2 flex justify-start w-[400px] my-2 rounded-lg bg-fuchsia-950 p-[5px]"
             type="email"
             name="email"
-            placeholder=" enter  your Email"
+            placeholder=" enter  your email"
           ></input>
         </div>
         <div className="flex justify-between">
@@ -133,8 +133,11 @@ const LoginPage = () => {
           <span>Don't have an account?</span>
           <span className="text-red-400 font-semibold ml-2">Sign Up</span>
         </div>
+        
       </div>
+      
       </div>
+      
     
   );
 };
