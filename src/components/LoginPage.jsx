@@ -1,8 +1,11 @@
 // Removed unused import statement
+// import GoogleLogin from "react-google-login";
+// import AppleLogin from "react-apple-login";
+// import ManWalkingOnStairs from "../Images/ManWalkingOnStairs.svg";
 
 const LoginPage = () => {
   return (
-    <div className="font-serif flex justify-center items-center h-screen  bg-[url('./Images/Background_Image.png')]  ">
+    <div className="font-serif flex justify-center items-center h-screen bg-cover  bg-[url('./Images/Background_Image.png')]  ">
       <div className="bg-fuchsia-950  border-slate-700 border-6 box-content h-[546px] w-[450px]  rounded-2xl pl-[50px] pr-[9px] pt-[50px] pb-[38px] mt-[65px] ml-[-780px]">
         <div>
           <h1 className="text-white font-bold flex justify-start text-3xl ">
@@ -11,7 +14,6 @@ const LoginPage = () => {
         </div>
         <div>
           <div>
-            {" "}
             <div>
               <h1 className="text-white flex justify-start text-md my-3">
                 Enter your credentials to access your account
@@ -19,7 +21,6 @@ const LoginPage = () => {
             </div>
           </div>
           <div>
-            {" "}
             <div>
               <h1 className="text-white flex justify-start font-bold">
                 Email Address
@@ -36,7 +37,6 @@ const LoginPage = () => {
         <div className="flex justify-between">
           <div className=" text-white  font-bold  ">Password</div>
           <div className="text-red-400 font-semibold mr-12">
-            {" "}
             forget Password
           </div>
         </div>
@@ -57,8 +57,7 @@ const LoginPage = () => {
           </button>
         </div>
         <div className="mt-12 text-white ml-[26px]">
-          {" "}
-          -------------------Or Login with---------------------{" "}
+          -------------------Or Login with---------------------
         </div>
         <div className="mt-10 flex justify-center items-center ml-[-52px]">
           <div className="m-4 border-gray-700 border-[1px] p-2 text-xs h-[40px] w-[160px] rounded-xl mr-2 text-white  flex justify-center items-center">
