@@ -1,5 +1,5 @@
 import { useState } from "react";
-import GitHubLogo from "../Images/GitHub_Logo.png"; // Assuming you have a GitHub logo image
+import GitHubLogo from "../Images/GitHubLogo.svg";
 import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
 
 const Links = [
@@ -7,7 +7,7 @@ const Links = [
   { name: "ABOUT US", link: "/" },
   { name: "BLOG", link: "/" },
   { name: "CONTACT", link: "/" },
-  { name: "GITHUB", link: "https://github.com/DevsDialogue/ProActive" }, // Add your GitHub repo link here
+  { name: "GITHUB", link: "https://github.com/DevsDialogue/ProActive" },
 ];
 
 const Navbar = () => {
@@ -15,9 +15,9 @@ const Navbar = () => {
 
   return (
     <div className="shadow-md w-full fixed top-0 left-0">
-      <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
+      <div className="md:flex items-center justify-between bg-purple-800 py-4 md:px-10 px-7">
         {/* logo section */}
-        <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
+        <div className="text-white font-bold text-2xl cursor-pointer flex items-center gap-1">
           <span>ProActive</span>
         </div>
         {/* Menu icon */}
@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
         {/* link items */}
         <ul
-          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-purple-800 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
             open ? "top-12" : "top-[-490px]"
           }`}
         >
@@ -40,13 +40,13 @@ const Navbar = () => {
                   <img
                     src={GitHubLogo}
                     alt="GitHub Logo"
-                    className="h-7 w-7 inline-block"
+                    className="h-9 w-9 inline-block "
                   />
                 </a>
               ) : (
                 <a
                   href={link.link}
-                  className="text-gray-800 hover:text-blue-400 duration-500"
+                  className="text-white hover:text-blue-400 duration-500"
                 >
                   {link.name}
                 </a>
