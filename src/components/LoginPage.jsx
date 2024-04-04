@@ -28,7 +28,7 @@ const LoginPage = () => {
             </div>
           </div>
           <input
-            className="border-gray-500 border-2 flex justify-start w-[400px] my-2 rounded-lg bg-fuchsia-950 p-[5px]"
+            className="border-gray-500 border-2 flex justify-start w-[400px] my-2 rounded-lg bg-fuchsia-950 p-[5px] text-white"
             type="email"
             name="email"
             placeholder=" enter  your email"
@@ -42,7 +42,7 @@ const LoginPage = () => {
         </div>
         <div>
           <input
-            className="border-gray-600 border-2 mb-5 flex justify-start w-[400px] my-2 rounded-lg opacity-0.5 bg-fuchsia-950 p-[5px]"
+            className="border-gray-600 border-2 mb-5 flex justify-start w-[400px] my-2 rounded-lg opacity-0.5 bg-fuchsia-950 p-[5px] text-white"
             type="password"
             name="password"
             placeholder=" Password"
